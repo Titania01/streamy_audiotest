@@ -1,0 +1,70 @@
+// Input
+.input{
+  @apply w-full p-4 pr-6 border border-solid border-white rounded-[2rem] flex items-center gap-4;
+
+  & input{
+    @apply flex-grow;
+  }
+}
+
+/* Search Input */
+
+.search-input{
+  @apply w-full rounded-[0.75rem] bg-white py-2 flex items-center px-4;
+
+  & input{
+    @apply flex-grow mr-4;
+  }
+}
+
+// Navbar
+.navbar {
+  @apply bg-[#161616] h-[5rem] flex items-center px-6 justify-between;
+
+  .nav-buttons-cont{
+    @apply flex gap-10 items-center;
+
+    .auth-btn-cont{
+      @apply flex gap-2;
+    }
+  }
+}
+
+// Buttons
+.button{
+  @apply w-max h-10 rounded-xl flex gap-1 items-center justify-center px-4;
+}
+
+.download-btn{
+  @apply bg-[#000000] text-[#1EAEA3] font-medium rounded-[1.125rem];
+  box-shadow: 0px 0px 4px 2px rgba(30, 174, 163, 0.50);
+}
+
+.sign-up-btn{
+  @apply bg-[#1EAEA3] text-white;
+}
+
+.login-btn{
+  @apply text-white border border-solid border-white;
+}
+
+// AuthLayout
+.auth-layout{
+  @apply w-[62rem] h-[32rem] px-10 mt-4 grid;
+  grid-template-columns: 45% 1fr;
+
+  .img-cont{
+    @apply flex items-end flex-col;
+
+    img{
+      width: 28rem;
+      height: 22rem;
+    }
+    p{
+      @apply text-[#7B61FF] font-bold text-2xl text-center w-[28rem];
+    }
+  }
+
+  
+}
+

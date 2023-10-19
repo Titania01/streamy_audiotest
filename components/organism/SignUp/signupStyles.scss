@@ -1,0 +1,15 @@
+.form{
+  @apply flex flex-col gap-4;
+
+  .create-account-text{
+    @apply font-bold text-2xl;
+  }
+
+  .inputs-cont{
+    @apply flex flex-col gap-4;
+  }
+
+  .login-cta{
+    @apply font-bold;
+  }
+}
